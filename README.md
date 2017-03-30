@@ -19,7 +19,7 @@ npm install
 ### Start the server
 
 ```shell
-npm run serve
+npm start
 ```
 
 This will rebuild `thumbnails.css` from the images in `static\images\` and start a server at `localhost:3000`
