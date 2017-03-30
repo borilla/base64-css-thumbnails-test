@@ -1,15 +1,11 @@
 html {
-	background-color: #222;
+	background-color: #eee;
+	color: #222;
 	font-family: sans-serif;
 }
 
 body {
-	background-color: #333;
-	box-shadow: inset -25px 0 25px -25px #666, inset 25px 0 25px -25px #666;
-	color: #ccc;
-	margin: 0 auto;
-	padding: 1em;
-	width: 30em;
+	margin: 1em;
 }
 
 h1 {
@@ -17,7 +13,16 @@ h1 {
 	text-align: center;
 }
 
+.tiles {
+	box-shadow: 0 5px 15px;
+	margin: 1em auto;
+	padding: 1em;
+	width: 30em;
+}
+
 .tiles img {
+	border: 1px solid;
+	box-sizing: border-box;
 	height: 8em;
 	margin: 0.5em;
 	width: 14em;
