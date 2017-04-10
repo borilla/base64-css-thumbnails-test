@@ -43,6 +43,7 @@ function getTilesHtml() {
 }
 
 function getTileHtml(image, index) {
+	var shouldFail = Math.random() < 0.1;
 	var html = '';
 
 	html += '<div class="tile">';
@@ -52,7 +53,7 @@ function getTileHtml(image, index) {
 	html += '</div>';
 
 	html = html.replace('BASE64', image.thumbnail.base64);
-	html = html.replace('SRC', image.file);
+	html = html.replace('SRC', shouldFail ? 'images/invalid-image.txt?i=' + index : image.file);
 	html = html.replace('INDEX', index + 1);
 
 	return html;
