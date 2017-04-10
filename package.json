@@ -4,7 +4,7 @@
   "description": "Test for @borilla/base64-thumbnails module",
   "main": "index.js",
   "scripts": {
-    "build": "base64-thumbnails --root static --width 8 --height 8 thumbnails.json",
+    "build": "base64-thumbnails --root static --width 16 --height 16 thumbnails.json",
     "start": "npm run build && node index.js"
   },
   "repository": {

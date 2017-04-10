@@ -6,11 +6,23 @@ html {
 
 body {
 	margin: 1em;
+	text-align: center;
 }
 
 h1 {
 	font-size: 1.4em;
-	text-align: center;
+}
+
+.link {
+	background: none;
+	border-style: none;
+	color: blue;
+	cursor: pointer;
+	font-size: inherit;
+	margin: 0;
+	outline-style: none;
+	padding: 0;
+	text-decoration: underline;
 }
 
 .tiles {
@@ -37,7 +49,9 @@ h1 {
 .img-placeholder img {
 	animation: 1s fadein;
 	height: 100%;
+	left: 0;
 	position: absolute;
+	top: 0;
 	width: 100%;
 }
 
