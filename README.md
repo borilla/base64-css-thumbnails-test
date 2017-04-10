@@ -1,18 +1,18 @@
-# base64-css-thumbnails-test
+# base64-thumbnails-test
 
-Test for [base64-css-thumbnails](https://github.com/borilla/base64-css-thumbnails)
+Test for [base64-thumbnails](https://github.com/borilla/base64-thumbnails)
 
 ### Clone the repo
 
 ```shell
-git clone https://github.com/borilla/base64-css-thumbnails-test
+git clone https://github.com/borilla/base64-thumbnails-test
 
 ```
 
 ### Run npm install
 
 ```shell
-cd base64-css-thumbnails-test
+cd base64-thumbnails-test
 npm install
 ```
 
@@ -22,7 +22,7 @@ npm install
 npm start
 ```
 
-This will rebuild `thumbnails.css` from the images in `static\images\` and start a server at `localhost:3000`
+This will rebuild `thumbnails.json` from the images in `static\images\` and start a server at `localhost:3000`
 
 ### View in browser
 

@@ -1,24 +1,21 @@
 {
-  "name": "base64-css-thumbnails-test",
+  "name": "base64-thumbnails-test",
   "version": "1.0.0",
-  "description": "Test for @borilla/base64-css-thumbnails module",
+  "description": "Test for @borilla/base64-thumbnails module",
   "main": "index.js",
   "scripts": {
-    "build": "make-thumbnails-css --root static --width 8 --height 8 thumbnails.css",
+    "build": "base64-thumbnails --root static --width 8 --height 8 thumbnails.json",
     "start": "npm run build && node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/borilla/base64-css-thumbnails-test.git"
+    "url": "git+https://github.com/borilla/base64-thumbnails-test.git"
   },
   "author": "borilla",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/borilla/base64-css-thumbnails-test/issues"
-  },
-  "homepage": "https://github.com/borilla/base64-css-thumbnails-test#readme",
+  "homepage": "https://github.com/borilla/base64-thumbnails-test",
   "dependencies": {
-    "@borilla/base64-css-thumbnails": "github:borilla/base64-css-thumbnails",
+    "@borilla/base64-thumbnails": "github:borilla/base64-thumbnails",
     "express": "^4.15.2"
   }
 }
