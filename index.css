@@ -30,11 +30,13 @@ h1 {
 
 .img-placeholder {
 	background-size: 100% 100%;
+	padding-bottom: 66.67%;
 	position: relative;
 }
 
 .img-placeholder img {
 	animation: 1s fadein;
+	height: 100%;
 	position: absolute;
 	width: 100%;
 }

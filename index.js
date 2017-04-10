@@ -42,16 +42,14 @@ function getTilesHtml() {
 
 function getTileHtml(image) {
 	var html = '';
-	var ratio = image.originalImage.height / image.originalImage.width * 100;
 
 	html += '<div class="tile">';
-	html += '<div class="img-placeholder" style="background-image: url(BASE64); padding-bottom: RATIO%">';
+	html += '<div class="img-placeholder" style="background-image: url(BASE64)">';
 	html += '<img src="SRC" alt="" />';
 	html += '</div>';
 	html += '</div>';
 
 	html = html.replace('BASE64', image.thumbnail.base64);
-	html = html.replace('RATIO', ratio.toFixed(2));
 	html = html.replace('SRC', image.file);
 
 	return html;
