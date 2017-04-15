@@ -10,6 +10,7 @@ app.get('/', function (req, res) {
 	html += '<!doctype html5>';
 	html += '<html>';
 	html += '<head>';
+	html += '<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">';
 	html += '<title>Image list</title>';
 	html += '<style>' + fs.readFileSync('./include/style.css') + '</style>';
 	html += '</head>';
